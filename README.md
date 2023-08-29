@@ -16,7 +16,7 @@ and
 `
 python test.py
 `
-To change the default settings, please see utils.py.
+To change the default settings, please see `utils.py`.
 
 During training, it saves the reconstructions of some selected images with GT camera after every a few epochs, in "./ckpt/outputs/".
 
