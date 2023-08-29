@@ -1,5 +1,5 @@
 # ED2IF2-Net
-Code of ED2IF2-Net
+Code of ED2IF2-Net.
 ## Data pre-processing ##
 The datasets need to be pre-processed for our training.
 ```
@@ -8,7 +8,7 @@ python ./preprocessing/estimate_density.py # pre-compute the point sampling dens
 python ./preprocessing/estimate_gradient.py # pre-compute the SDF gradients to classify the front-side and back-side nearby points.
 ```
 ## training and testing ##
-For training and testing, please directly run
+For training and testing, please directly run:
 `
 python train.py
 `
